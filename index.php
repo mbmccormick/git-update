@@ -3,7 +3,7 @@
     include "config.php";
 
     $out = array();
-    exec("git pull origin master", $out);
+    exec("GIT_DIR=$RepositoryPath git pull origin master", $out);
 
     echo "<code>\n";
     echo "$ cd " . $RepositoryPath;
