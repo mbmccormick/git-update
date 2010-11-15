@@ -6,7 +6,7 @@
     exec("GIT_DIR=$RepositoryPath git pull origin master", $out);
 
     echo "<code>\n";
-    echo "$ cd " . $RepositoryPath;
+    echo "$ cd " . $RepositoryPath . "\n";
     echo "$ git pull origin master<br />\n";
     echo "<br />\n";
     foreach($out as $line)
