@@ -1,0 +1,6 @@
+<?php
+
+    // application settings
+    $RepositoryPath = "/home/yourusername/yourserver.com/";
+    
+?>
